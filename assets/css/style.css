@@ -65,3 +65,27 @@ span.nav-link {
 nav > a.nav-link {
   color: #ffffff;
 }
+/* Footer  block */
+.inner {
+  background-color: #f2f7fd;
+}
+.inner-heading {
+  padding: 3rem;
+  text-align: center;
+  background-color: #22426b;
+}
+.inner-heading > h2 {
+  color: #ffffff;
+}
+.inner-content > ul > li {
+  margin-top: 1rem;
+}
+.inner-content > h4 {
+  color: #b22222;
+}
+
+.inner-content {
+  background: #fff;
+  margin: 2rem;
+  padding: 1.5rem;
+}
