@@ -12,6 +12,9 @@ li {
   list-style-type: none;
 }
 /* Header */
+.header {
+  background: #f8f9fa;
+}
 .nav-link:active {
   font-weight: 700;
 }
@@ -28,10 +31,37 @@ li {
 span.nav-link {
   background: #ffb116;
   border-radius: 50%;
-  margin: 0 10px;
+  margin-right: 10px;
 }
+@media screen and (min-width: 992px) {
+  span.nav-link {
+    margin: 0 10px;
+  }
+}
+
 .come {
   position: absolute;
   top: 100%;
   left: -140px;
+}
+/* Footer */
+.footer {
+  background: #22426b;
+  padding: 1.625rem 0;
+}
+.footer-top {
+  display: flex;
+  justify-content: center;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
+}
+.footer-bottom > a.nav-link {
+  color: #ffffff;
+}
+nav > a.nav-link {
+  color: #ffffff;
 }
