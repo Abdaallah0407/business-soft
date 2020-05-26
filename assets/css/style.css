@@ -26,3 +26,33 @@ html body {
   padding-bottom: 5px;
 }
 
+ul {
+  list-style: none;
+}
+li {
+  list-style-type: none;
+}
+/* Header */
+.nav-link:active {
+  font-weight: 700;
+}
+.nav-link:focus {
+  font-weight: 700;
+}
+.img-logo {
+  width: 100%;
+}
+.account {
+  display: flex;
+  align-items: center;
+}
+span.nav-link {
+  background: #ffb116;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.come {
+  position: absolute;
+  top: 100%;
+  left: -140px;
+}
