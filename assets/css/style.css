@@ -127,3 +127,7 @@ h1.inner-title {
   margin: 2rem;
   padding: 1.5rem;
 }
+
+.fc-today-button {
+  display: none;
+}
