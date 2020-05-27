@@ -54,11 +54,103 @@ span.nav-link {
   border-radius: 50%;
   margin-right: 10px;
 }
-@media screen and (min-width: 992px) {
-  span.nav-link {
-    margin: 0 10px;
-  }
+.content {
+  background: #BCD3EC;
 }
+.respublic__blog {
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.content__text__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 15px;
+  color: #295079;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.content__text__poragrohp {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+  color: #295079;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin: 0;
+}
+.content__button__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  color: #FFFFFF;
+  padding-top: 3px;
+}
+.content__button {
+  background: #295079;
+  border-radius: 4px;
+  width: 70px;
+  height: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.link__clinik:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .come {
   position: absolute;
@@ -75,17 +167,7 @@ span.nav-link {
   display: flex;
   justify-content: center;
 }
-@media screen and (min-width: 320px) {
-  .footer-top {
-    text-align: center;
-    flex-direction: column;
-  }
-}
-@media screen and (min-width: 568px) {
-  .footer-top {
-    flex-direction: row;
-  }
-}
+
 .footer-bottom {
   display: flex;
   flex-direction: column;
@@ -130,4 +212,47 @@ h1.inner-title {
 
 .fc-today-button {
   display: none;
+}
+
+
+@media screen and (min-width: 320px) {
+  .footer-top {
+    text-align: center;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 568px) {
+  .footer-top {
+    flex-direction: row;
+  }
+  
+}
+@media screen and (min-width: 992px) {
+  span.nav-link {
+    margin: 0 10px;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .respublic__blog {
+    flex-direction: column;
+  }
+  .col {
+    text-align: center;
+  }
+  .content__text__poragrohp {
+    text-align: center;
+  }
+  .content__button {
+    display: none;
+  }
+
+  
+}
+@media screen and (max-width: 770px) {
+  .two {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
 }
