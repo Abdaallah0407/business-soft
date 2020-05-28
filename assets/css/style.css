@@ -5,6 +5,14 @@ html body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background: url("/assets/img/bg.png") no-repeat;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
 }
 
 .nav_items_link {
@@ -57,6 +65,7 @@ span.nav-link {
   border-radius: 50%;
   margin-right: 10px;
 }
+/* Content */
 .content {
   background: #bcd3ec;
 }
@@ -113,6 +122,10 @@ span.nav-link {
   top: 100%;
   left: -140px;
 }
+.fc-today-button {
+  display: none;
+}
+
 /* Footer */
 .footer {
   background: #22426b;
@@ -165,11 +178,7 @@ h1.inner-title {
   margin: 2rem;
   padding: 1.5rem;
 }
-
-.fc-today-button {
-  display: none;
-}
-
+/* Forms */
 .registration {
   display: flex;
   justify-content: center;
@@ -189,7 +198,12 @@ h1.inner-title {
 .form-control {
   border: 1px solid #39b6ae;
 }
-
+.input-field {
+  margin-bottom: 1rem;
+}
+.appointment {
+  text-align: center;
+}
 @media screen and (min-width: 320px) {
   .footer-top {
     text-align: center;
