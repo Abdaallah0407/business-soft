@@ -204,6 +204,7 @@ h1.inner-title {
 .appointment {
   text-align: center;
 }
+
 @media screen and (min-width: 320px) {
   .footer-top {
     text-align: center;
