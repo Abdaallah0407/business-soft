@@ -2,8 +2,11 @@ html body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
+
 .nav_items_link {
   color: #29527b;
   font-family: "Montserrat", sans-serif;
@@ -55,7 +58,7 @@ span.nav-link {
   margin-right: 10px;
 }
 .content {
-  background: #BCD3EC;
+  background: #bcd3ec;
 }
 .respublic__blog {
   display: flex;
@@ -90,7 +93,7 @@ span.nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 14px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 3px;
 }
 .content__button {
@@ -105,53 +108,6 @@ span.nav-link {
 .link__clinik:hover {
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .come {
   position: absolute;
   top: 100%;
@@ -214,6 +170,25 @@ h1.inner-title {
   display: none;
 }
 
+.registration {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.site {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-global {
+  border-radius: 10px;
+  border: 2px solid #bfd1e3;
+  padding: 20px;
+}
+.form-control {
+  border: 1px solid #39b6ae;
+}
 
 @media screen and (min-width: 320px) {
   .footer-top {
@@ -225,14 +200,12 @@ h1.inner-title {
   .footer-top {
     flex-direction: row;
   }
-  
 }
 @media screen and (min-width: 992px) {
   span.nav-link {
     margin: 0 10px;
   }
 }
-
 
 @media screen and (max-width: 550px) {
   .respublic__blog {
@@ -247,8 +220,6 @@ h1.inner-title {
   .content__button {
     display: none;
   }
-
-  
 }
 @media screen and (max-width: 770px) {
   .two {
