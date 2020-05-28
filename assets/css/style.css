@@ -120,6 +120,11 @@ span.nav-link {
 .link__clinik:hover {
   text-decoration: none;
 }
+.hx {
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #295079;
+}
 .come {
   position: absolute;
   top: 100%;
