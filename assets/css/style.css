@@ -75,6 +75,27 @@ li {
   display: flex;
   align-items: center;
 }
+.user_profile{
+  text-align: center;
+}
+.dropdown-item{
+  align-items: center;
+    font-size: 14px;
+    color: #494c57;
+}
+.ico{
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.user_img{
+  margin-bottom: 15px;
+}
+.users_img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
 span.nav-link {
   background: #ffb116;
   border-radius: 50%;
@@ -139,8 +160,8 @@ span.nav-link {
 }
 .come {
   position: absolute;
-  top: 100%;
-  left: -140px;
+  top: 120%;
+  left: -70px;
 }
 .fc-today-button {
   display: none;
@@ -251,7 +272,6 @@ h1.inner-title {
 .appointment {
   text-align: center;
 }
-<<<<<<< HEAD
 /* Chat */
 
 .chat {
@@ -383,8 +403,6 @@ h1.inner-title {
   border-radius: 10px;
   align-items: center;
 }
-=======
-.news__poragrohp {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -392,7 +410,6 @@ h1.inner-title {
   line-height: 17px;
   color: #295079;
   width: 450px;
-
 }
 .news__title {
   font-family: Montserrat;
@@ -408,25 +425,10 @@ h1.inner-title {
   width: 300px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> e5f652a1983cf945799ea0f33b548e77cfc87257
-
-@media screen and (min-width: 320px) {
+  @media
+  screen
+  and
+  (min-width: 320px) {
   .footer-top {
     text-align: center;
     flex-direction: column;
@@ -436,7 +438,6 @@ h1.inner-title {
   .footer-top {
     flex-direction: row;
   }
-  
 }
 @media screen and (min-width: 992px) {
   span.nav-link {

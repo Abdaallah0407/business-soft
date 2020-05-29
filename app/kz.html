@@ -15,6 +15,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="../assets/css/coremain.min.css" />
     <link rel="stylesheet" href="../assets/css/bootmain.min.css" />
     <link rel="stylesheet" href="../assets/css/daymain.min.css" />
@@ -98,10 +105,31 @@
                   class="dropdown-menu come"
                   aria-labelledby="navbarDropdown"
                 >
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="user_profile" href="#">
+                    <div class="user_img">
+                      <img
+                        src="../assets/img/raiskie_111___B1zUdkVBAeZ___.jpg"
+                        alt=""
+                        class="users_img"
+                      />
+                    </div>
+                    <h6>Жапаров Руслан</h6>
+                  </div>
+                  <a class="dropdown-item" href="#"
+                    ><i class="fa fa-user ico" aria-hidden="true"></i>Профиль</a
+                  >
+                  <a class="dropdown-item" href="#"
+                    ><i class="fa fa-pencil-square-o ico" aria-hidden="true"></i
+                    >Редактировать профиль</a
+                  >
+                  <a class="dropdown-item" href="#"
+                    ><i class="fa fa-cog ico" aria-hidden="true"></i>Настройки
+                    профиля</a
+                  >
+                  <a class="dropdown-item" href="../index.html"
+                    ><i class="fa fa-sign-out ico" aria-hidden="true"></i>Выйти
+                    с профиля</a
+                  >
                 </div>
               </div>
             </li>
@@ -139,7 +167,15 @@
                 class="nav_icone ler"
                 alt=""
               />
-              <a href="../template/news.html" class="nav_items_link">Новости</a>
+              <a href="" class="nav_items_link">Новости</a>
+            </div>
+            <div class="nav_items">
+              <img
+                src="../assets/img/WhatsApp Image 2020-05-28 at 22.41.31 (2).jpeg"
+                class="nav_icone ler"
+                alt=""
+              />
+              <a href="chat.html" class="nav_items_link">Чат</a>
             </div>
           </div>
         </div>
@@ -160,37 +196,72 @@
                       Время работы:# <br />
                       Персонал:#
                     </p>
-                    <button type="button" class="btn btn-primary" style="margin-left: 20px; margin-top: 10px; border: none;" data-toggle="modal" data-target="#exampleModalCenter">
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      style="margin-left: 20px; margin-top: 10px; border: none;"
+                      data-toggle="modal"
+                      data-target="#exampleModalCenter"
+                    >
                       Подробнее
                     </button>
                   </div>
                 </div>
 
-
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered" role="document">
+                <div
+                  class="modal fade"
+                  id="exampleModalCenter"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalCenterTitle"
+                  aria-hidden="true"
+                >
+                  <div
+                    class="modal-dialog modal-dialog-centered"
+                    role="document"
+                  >
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title hx" id="exampleModalLongTitle">LS-clinic</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <h5 class="modal-title hx" id="exampleModalLongTitle">
+                          LS-clinic
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
                       <div class="modal-body" style="display: flex;">
                         <div class="img">
-                          <img src="../assets/img/Rectangle 43 (11).png" alt="" />
+                          <img
+                            src="../assets/img/Rectangle 43 (11).png"
+                            alt=""
+                          />
                         </div>
                         <div>
-                        <p class="content__text__poragrohp">
-                          Адрес: # <br />
-                          Время работы:# <br />
-                          Персонал:#
-                        </p>
-                      </div>
+                          <p class="content__text__poragrohp">
+                            Адрес: # <br />
+                            Время работы:# <br />
+                            Персонал:#
+                          </p>
+                        </div>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Скрыть</button>
-                        <a href="../template/appointmen.html" class="modal_link"><button type="button" class="btn btn-primary">Переидти</button></a>
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Скрыть
+                        </button>
+                        <a href="../template/appointmen.html" class="modal_link"
+                          ><button type="button" class="btn btn-primary">
+                            Переидти
+                          </button></a
+                        >
                       </div>
                     </div>
                   </div>
