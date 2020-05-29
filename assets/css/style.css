@@ -350,12 +350,6 @@ h1.inner-title {
 .message--user-2 + .message--user-2 {
   margin-top: 0.5em;
 }
-.message__time {
-  font-size: 10px;
-  color: #ccc;
-  width: 100%;
-  margin: 0 0 5px 50px;
-}
 .message__author-pic {
   margin: 0 10px 0 0;
 }
@@ -363,8 +357,8 @@ h1.inner-title {
 .message__text {
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid #69b4f3;
-  background-color: #bfe2ff;
+  border: 1px solid #e5e0dd;
+  background-color: #ffffff;
   max-width: 70%;
 }
 
@@ -380,7 +374,7 @@ h1.inner-title {
   margin: 0 0 0 10px;
 }
 .message--user-2 .message__text {
-  background-color: #69b4f3;
+  background-color: #edf9fb;
 }
 .form-chat {
   border: none;
